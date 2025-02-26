@@ -1,0 +1,13 @@
+mails non lu, notifs
+gcp 
+
+4 teams
+team 1 collecte de data cassandra ?query build run, deployment, prod
+
+team 2 transverse scoop, migration cloud
+
+team 3 API snapi, 2 3 ms 20 000 requetes par secondes, 14 API differentes, clients interne différent
+
+team 4 spé ID, injection in tables, ingé system linux, 
+
+back end java avec expertise dataflow 
