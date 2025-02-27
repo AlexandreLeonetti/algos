@@ -5,7 +5,7 @@ def bfs(graph, start):
     queue = deque([start])  # Initialize queue with the starting node
 
     while queue:
-        node = queue.popleft()  # Dequeue a node
+        node = queue.popleft()  # Dequeue a node FIFO
         if node not in visited:
             print(node, end=" ")  # Process the node
             visited.add(node)  # Mark node as visited
