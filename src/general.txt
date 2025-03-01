@@ -1,0 +1,19 @@
+cicd :
+precommit
+git workflow
+git hooks
+terraform
+ansible
+docker
+kubernetes
+
+pipelines
+jenkins
+
+hexa archi
+other archi
+
+unit tests
+other tests
+make file
+linter and stuff

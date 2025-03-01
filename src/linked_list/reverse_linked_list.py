@@ -25,7 +25,16 @@ def print_linked_list(head):
     print(" -> ".join(values))
 
 # Example usage
-head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, None)))))
+#head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, None)))))
+
+#hey chatGPT, is the following working as well ?
+# like, is it a valid way to initialize a linked list ?
+node5 = ListNode(5,None)
+node4 = ListNode(4, node5)
+node3 = ListNode(3, node4)
+node2 = ListNode(2, node3)
+node1 = ListNode(1, node2)
+head = node1
 print("Original List:")
 print_linked_list(head)
 

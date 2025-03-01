@@ -30,5 +30,20 @@ def heapify(arr, n, i):
 
 # Example usage
 arr = [38, 27, 43, 3, 9, 82, 10]
-heap_sort(arr)
-print("Sorted Array:", arr)
+#heap_sort(arr)
+print(arr)
+
+n = len(arr)
+
+for i in range(n//2-1,-1,-1):
+    heapify(arr, n, i)
+    
+print(arr)
+
+#sorting array
+
+for i in range(n-1,0,-1):
+    arr[0],arr[i]=arr[i],arr[0]
+    heapify(arr,i,0)
+
+print(arr)
