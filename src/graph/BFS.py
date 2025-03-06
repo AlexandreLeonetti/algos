@@ -18,10 +18,10 @@ def bfs(graph, start):
 # Example Graph (Adjacency List Representation)
 graph = {
     'A': ['B', 'C'],
-    'B': ['A', 'D', 'E'],
+    'B': ['A', 'H', 'E'],
     'C': ['A', 'F', 'G'],
     'D': ['B'],
-    'E': ['B', 'H'],
+    'E': ['B', 'D'],
     'F': ['C'],
     'G': ['C'],
     'H': ['E']

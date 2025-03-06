@@ -1,0 +1,12 @@
+ 
+select * from dwhsup.TEST_SQL where COD_AER_ORI = 'TLS'
+select * from dwhsup.TEST_SQL_3 where LIB_VAL like '%ant';
+select distinct case when cod_aer_ori ='TLS' then 'BOD' else cod_aer_ori end   from dwhsup.TEST_sql where cod_aer_ori='TLS'
+insert into dwhsup.TEST_SQL_2 values ('', 'New York -J.F Kennedy');
+select * from dwhsup.TEST_sql  , dwhsup.TEST_sql_3
+select   * from dwhsup.TEST_sql_3  , dwhsup.TEST_sql_2  , dwhsup.TEST_sql
+select avg(PRX_CAF) from dwhsup.TEST_SQL where COD_AER_ORI = 'BOD'
+select * from dwhsup.TEST_SQL where COD_AER_ORI = 'TLS     ';
+select distinct a.* from dwhsup.TEST_sql a inner join dwhsup.TEST_sql b on a.val_001 <= b.val_002
+select * from dwhsup.TEST_SQL where COD_AER_ORI = '      TLS';
+ 

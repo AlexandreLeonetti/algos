@@ -1,0 +1,28 @@
+arrays
+linear sort
+
+hash_tables
+heaps
+basic heapify array
+ll
+reverse ll
+merge ll
+trees
+pre order
+in order
+post order
+graph
+bfs
+dfs
+recursion:
+fibonacci
+
+
+
+
+
+l2
+
+arrays
+
+remove duplicates
